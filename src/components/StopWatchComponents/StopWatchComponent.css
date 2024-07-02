@@ -1,0 +1,89 @@
+
+/* .stopwatch img
+{
+    width: 3px;
+    height: 3px;
+} */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:whitesmoke;
+  }
+  
+  .stopwatch {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color: #16b4bc;
+    width: 350px;
+    height: 350px;
+    font-size: 2rem;
+    font-weight:bold ;
+    font-family: 'Times New Roman';
+    
+
+  }
+  
+  .stopwatch .time{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .stopwatch .time img{
+    width: 35px; 
+    height: 35px;
+    
+  }
+  
+  .show  {
+    display: flex;
+    gap: 5px;
+    background-color: #16b4bc;
+
+  }
+   .display button {
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    color: rgb(242, 237, 237);
+  border-radius: 10px;
+  padding: 7px 10px;
+  cursor:pointer;
+  margin: 4px;
+  min-width: 30px;
+   }
+   .start-button
+   {
+    background-color: rgb(27, 232, 23);
+   }
+   /* .start-button:hover
+   {
+    background-color:green;
+   } */
+   .stop
+   {
+    background-color: red;
+   }
+   /* .stop:hover
+   {
+    background-color: red;
+   } */
+   .reset
+   {
+    background-color:rgb(212, 159, 14);
+   }
+   .reset:hover
+   {
+    background-color:yellow;
+   }
+  
